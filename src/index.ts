@@ -31,6 +31,7 @@ export class Logger {
     const fns = this._transports.map(transport => transport.mapping[level]);
 
     const payload = {
+      level: LoggerLevel[level],
       message,
       variables,
       metadata: this._metadata,
