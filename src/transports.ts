@@ -1,5 +1,5 @@
 /* eslint no-console: off */
-import { LoggerLevel } from "./levels";
+import { LoggerLevel } from "./levels.js";
 
 export class LoggerTransport {
   constructor(public mapping: Record<LoggerLevel, (json: string) => void>) {}

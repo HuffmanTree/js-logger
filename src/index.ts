@@ -1,5 +1,5 @@
-import { LoggerLevel } from "./levels";
-import { ConsoleTransport, LoggerTransport } from "./transports";
+import { LoggerLevel } from "./levels.js";
+import { ConsoleTransport, LoggerTransport } from "./transports.js";
 
 interface LoggerParams {
   maxLevel: LoggerLevel,
