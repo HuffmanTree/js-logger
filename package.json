@@ -32,7 +32,7 @@
     "@tsconfig/node20": "^20.1.4",
     "@types/chai": "^4.3.10",
     "@types/mocha": "^10.0.4",
-    "@types/sinon": "^17.0.1",
+    "@types/sinon": "^17.0.3",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
     "chai": "^4.3.10",
@@ -40,7 +40,7 @@
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.0",
     "mocha": "^10.2.0",
-    "sinon": "^17.0.1",
+    "sinon": "^19.0.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
     "typescript-eslint-language-service": "^5.0.5"
