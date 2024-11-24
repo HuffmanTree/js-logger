@@ -7,7 +7,7 @@
     "install": "npm run build",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
-    "test": "npx -y nyc@latest mocha 'test/**/*.test.ts'"
+    "test": "mocha 'src/__tests__/*.test.ts'"
   },
   "type": "module",
   "types": "./dist/index.d.ts",

@@ -24,3 +24,9 @@ const logger = new Logger({
 
 logger.info("Hello World!");
 ```
+
+## Run tests
+
+```sh
+npm run test
+```
