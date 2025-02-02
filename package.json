@@ -29,7 +29,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@tsconfig/node20": "^20.1.4",
+    "@tsconfig/node22": "^22",
     "@types/chai": "^4.3.10",
     "@types/mocha": "^10.0.4",
     "@types/sinon": "^17.0.3",
